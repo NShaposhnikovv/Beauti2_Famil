@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid Background="White">
-        <Button Content="Услуги" HorizontalAlignment="Left" Margin="248,172,0,0" VerticalAlignment="Top" Height="42" Width="147" Click="Button_Click" Background="#FFF5CDCD" BorderBrush="#FFFF4A6D" Foreground="#FF827979" FontWeight="Bold"/>
+        <Button Content="Услуги" HorizontalAlignment="Left" Margin="248,172,0,0" VerticalAlignment="Top" Height="42" Width="147" Click="Button_Click" Background="#FFF5CDCD" BorderBrush="#FFFF4A6D" Foreground="#FF827979" FontWeight="Bold" />
         <Button Content="Список клиентов" HorizontalAlignment="Left" Margin="248,219,0,0" VerticalAlignment="Top" Height="42" Width="147" BorderBrush="#FFFF4A6D" Background="#FFF5CDCD" Foreground="#FF827979" FontWeight="Bold"/>
         <Button Content="Список товаров" HorizontalAlignment="Left" Margin="248,266,0,0" VerticalAlignment="Top" Height="42" Width="147" BorderBrush="#FFFF4A6D" Background="#FFF5CDCD" Foreground="#FF827979" FontWeight="Bold"/>
         <Button Content="Добавить новый товар" HorizontalAlignment="Left" Margin="400,172,0,0" VerticalAlignment="Top" Height="42" Width="147" BorderBrush="#FFFF4A6D" Background="#FFF5CDCD" Foreground="#FF827979" FontWeight="Bold"/>

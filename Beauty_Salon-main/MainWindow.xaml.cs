@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace Beauty_Salon
 {
     /// <summary>
@@ -25,8 +26,10 @@ namespace Beauty_Salon
             InitializeComponent();
         }
 
+
         private void Button_Click(object sender, RoutedEventArgs e)
         {
+         
 
         }
     }

@@ -17,7 +17,7 @@
                 </LinearGradientBrush>
             </Label.Foreground>
         </Label>
-        <Grid Height="NaN" Margin="213,152,235,152" Width="NaN" Background="#FFEDDEDE">
+        <Grid Height="NaN" Margin="224,137,224,167" Width="NaN" Background="#FFEDDEDE">
             <Grid.RowDefinitions>
 
                 <RowDefinition   Height="21*" ToolTip="2" Cursor="3"/>

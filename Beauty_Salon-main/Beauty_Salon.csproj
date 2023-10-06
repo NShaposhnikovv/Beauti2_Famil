@@ -107,5 +107,11 @@
   <ItemGroup>
     <Resource Include="beauty_logo.ico" />
   </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Укрепление ногтей гелем.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Стоун-терапия.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
