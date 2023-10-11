@@ -29,8 +29,10 @@ namespace Beauty_Salon
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-         
 
+            Frame1.Content = new Page1();
         }
+
+       
     }
 }

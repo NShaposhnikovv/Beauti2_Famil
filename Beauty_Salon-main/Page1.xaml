@@ -5,11 +5,24 @@
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:Beauty_Salon"
       mc:Ignorable="d" 
-      d:DesignHeight="450" d:DesignWidth="800"
+      d:DesignHeight="450" d:DesignWidth="800" MinHeight="450" MinWidth="800"
       Title="Page1">
 
     <Grid Background="#FFF9F9F9">
-        <Label Content="Услуги" HorizontalAlignment="Left" Margin="310,37,0,0" VerticalAlignment="Top" Height="70" Width="344" FontSize="48" FontFamily="Times New Roman" Background="{x:Null}" BorderBrush="#FFEFEFEF">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="191*"/>
+            <RowDefinition Height="34*"/>
+        </Grid.RowDefinitions>
+        <DataGrid x:Name="DGridService">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Название услуги" Binding="{Binding Name}" Width="*"></DataGridTextColumn>
+                <DataGridTextColumn Header="Цена" Binding="{Binding Name}" Width="160"></DataGridTextColumn>
+                <DataGridTextColumn Header="Скидка" Binding="{Binding Name}" Width="160" ></DataGridTextColumn>
+                <DataGridTextColumn Header="Фото" Binding="{Binding Name}" Width="160" ></DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Frame x:Name="Frame1" Grid.RowSpan="2"/>
+        <Label Content="Услуги" HorizontalAlignment="Left" Margin="325,0,0,0" VerticalAlignment="Center" Height="70" Width="344" FontSize="48" FontFamily="Times New Roman" Background="{x:Null}" BorderBrush="#FFEFEFEF" Grid.Row="1">
             <Label.Foreground>
                 <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
                     <GradientStop Color="Black"/>
@@ -17,22 +30,8 @@
                 </LinearGradientBrush>
             </Label.Foreground>
         </Label>
-        <Grid Height="NaN" Margin="224,137,224,167" Width="NaN" Background="#FFEDDEDE">
-            <Grid.RowDefinitions>
-
-                <RowDefinition   Height="21*" ToolTip="2" Cursor="3"/>
-                <RowDefinition Height="37*"/>
-                <RowDefinition Height="29*"/>
-                <RowDefinition Height="29*"/>
-                <RowDefinition Height="29*"/>
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="33*"/>
-
-                <ColumnDefinition  Width="30*"/>
-                <ColumnDefinition Width="25*"/>
-            </Grid.ColumnDefinitions>
-        </Grid>
+        <Image Margin="739,6,10,10" Source="/beauty_logo.ico" Stretch="Fill" Grid.Row="1"/>
+        <Button Content="Назад" HorizontalAlignment="Left" Margin="10,16,0,0" VerticalAlignment="Top"  Height="42" Width="148" Click="Button_Click02" Background="#FFF5CDCD" BorderBrush="#FFFF4A6D" Grid.Row="1"/>
 
     </Grid>
 </Page>

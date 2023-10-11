@@ -24,5 +24,10 @@ namespace Beauty_Salon
         {
             InitializeComponent();
         }
+
+        private void Button_Click02(object sender, NavigationEventArgs e)
+        {
+            Frame1.Content = new MainWindow();
+        }
     }
 }

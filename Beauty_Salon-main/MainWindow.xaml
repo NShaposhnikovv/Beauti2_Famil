@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Beauty_Salon"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" MinHeight="450" MinWidth="800">
     <Grid Background="White">
         <Button Content="Услуги" HorizontalAlignment="Left" Margin="248,172,0,0" VerticalAlignment="Top" Height="42" Width="147" Click="Button_Click" Background="#FFF5CDCD" BorderBrush="#FFFF4A6D" Foreground="#FF827979" FontWeight="Bold" />
         <Button Content="Список клиентов" HorizontalAlignment="Left" Margin="248,219,0,0" VerticalAlignment="Top" Height="42" Width="147" BorderBrush="#FFFF4A6D" Background="#FFF5CDCD" Foreground="#FF827979" FontWeight="Bold"/>
@@ -22,7 +22,7 @@
             </Label.Foreground>
         </Label>
         <Button Content="Авторизация" HorizontalAlignment="Left" Margin="643,382,0,0" VerticalAlignment="Top" Height="42" Width="147" Click="Button_Click" Background="#FFF5CDCD" BorderBrush="#FFFF4A6D"/>
-        <Image Margin="716,9,10,373" Source="/beauty_logo.ico" Stretch="Fill"/>
-
+        <Image Margin="739,10,10,373" Source="/beauty_logo.ico" Stretch="Fill"/>
+        <Frame x:Name="Frame1" Grid.Row="1"></Frame>
     </Grid>
 </Window>
